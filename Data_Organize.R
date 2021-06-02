@@ -15,7 +15,7 @@ Users = c(1, # Rachel
 
 # File path for meter data
 DirMeter = c("/Volumes/GoogleDrive/.shortcut-targets-by-id/1sRKN7b9U7odoX9ABwoUqoeY1G-kRMjHC/campus_weather/METER/",
-             "")
+             "E:/Google Drive/research/projects/Data/campus_weather/METER")
 # File path for TOMST data
 DirTOMST = c("/Volumes/GoogleDrive/.shortcut-targets-by-id/1sRKN7b9U7odoX9ABwoUqoeY1G-kRMjHC/campus_weather/TOMST/",
              "")
@@ -24,7 +24,7 @@ DirFinal = c("/Volumes/GoogleDrive/.shortcut-targets-by-id/1sRKN7b9U7odoX9ABwoUq
              "")
 
 # Select user - change if needed
-user = 1
+user = 2
 
 # Creating marker for initial run --> if this is true the first section of code
 #   will run, if false the second section will run.
