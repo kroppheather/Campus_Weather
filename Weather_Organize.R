@@ -93,14 +93,14 @@ MeterTableO1 <- left_join(meterTable, meterQAout, by=c("doy","year","time"))
 
 
 #### QA/QC ####
-
+#add in data flags and QAQC here
 
 
 #### Save final tables ####
 
 
-
-
+write.table(MeterTableO1,paste0(DirFinal[user],"/meter/meter_weather_data.csv"),sep=",", row.names=FALSE)
+write.table(MeterMeta,paste0(DirFinal[user],"/meter/meter_weather_metadata.csv"),sep=",", row.names=FALSE)
 
 
 
