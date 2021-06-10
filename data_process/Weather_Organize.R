@@ -103,4 +103,13 @@ write.table(MeterTableO1,paste0(DirFinal[user],"/meter/meter_weather_data.csv"),
 write.table(MeterMeta,paste0(DirFinal[user],"/meter/meter_weather_metadata.csv"),sep=",", row.names=FALSE)
 
 
+plot(MeterTableO1$DY, MeterTableO1$AirTemp,type="l")
+plot(MeterTableO1$DY, MeterTableO1$Precip, pch=19)
+plot(MeterTableO1$DY, MeterTableO1$WindSpeed,type="l")
+plot(MeterTableO1$DY, MeterTableO1$GustSpeed,type="l")
+plot(MeterTableO1$DY, MeterTableO1$VaporPr,type="l")
+#range +- 2 degrees
+plot(MeterTableO1$DY, MeterTableO1$XLevel,type="l")
+plot(MeterTableO1$DY, MeterTableO1$YLevel,type="l")
+
 
