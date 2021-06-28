@@ -113,3 +113,4 @@ plot(MeterTableO1$DY, MeterTableO1$XLevel,type="l")
 plot(MeterTableO1$DY, MeterTableO1$YLevel,type="l")
 
 
+tail(MeterTableO1)
